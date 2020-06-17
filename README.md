@@ -204,3 +204,5 @@ _Make sure you don't have many layers inside each form_
 ## Lesson 6 - Creating Class Library
 
 So far we have been working in the planning stage of the programm. That took nearly 5 steps for us to actually start coding. From this step on we will be building what we have been thinking so far. Now the development phase is supposed to be more straighforward as we clearly envisioned what we will be building.
+
+It is always a good practice to delete the default _Class1.cs_ as renaming the classes might later on create unexpected problems
