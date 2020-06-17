@@ -156,7 +156,7 @@ In this stage you have to think through and jot down what data you will be using
 
 **Team**
 
-- TeamMembers (Lis<Person>)
+- TeamMembers (List\<Person\>)
 - TeamName (string)
 
 **Person**
@@ -170,7 +170,7 @@ In this stage you have to think through and jot down what data you will be using
 
 - TournamentName (string)
 - EntryFee (decimal)
-- EnteredNumber (List<Team>)
+- EnteredNumber (List\<Team>\)
 
 **Prize**
 
@@ -181,7 +181,7 @@ In this stage you have to think through and jot down what data you will be using
 
 **Matchup**
 
-- Entries (List<MarchupEntry>)
+- Entries (List\<MarchupEntry>\)
 - Winner (Team)
 - MatchupRound (int)
 
@@ -206,3 +206,7 @@ _Make sure you don't have many layers inside each form_
 So far we have been working in the planning stage of the programm. That took nearly 5 steps for us to actually start coding. From this step on we will be building what we have been thinking so far. Now the development phase is supposed to be more straighforward as we clearly envisioned what we will be building.
 
 It is always a good practice to delete the default _Class1.cs_ as renaming the classes might later on create unexpected problems
+
+The general practice for naming the classes is \*ClassName**Model\***
+
+_Three forward slashed create XML for documenting the project_
