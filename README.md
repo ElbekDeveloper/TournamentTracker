@@ -5,6 +5,8 @@ _Content_
 1. [Lesson 0 - Introduction](#lesson-0---introduction)
 2. [Lesson 1 - Initial Planning](#lesson-1---initial-planning)
 3. [Lesson 2 - Overview Planning](#lesson-2---overview-planning)
+4. [Lesson 3 - Data Design](#lesson-3---data-design)
+5. [Lesson 4 - Logic Planning](#lesson-5---logic-planning)
 
 ## Lesson 0 - Introduction
 
@@ -188,3 +190,13 @@ In this stage you have to think through and jot down what data you will be using
 - TeamCompeting (Team)
 - Score (double)
 - ParentMatchup (Matchup)
+
+## Lesson 4 - User Interface Planning
+
+Now in this stage as a developer, you should sketch the basic form layout of the program. This help to visualize what you will be building. In the early days of programming you might not have the designer who will be drawing professional look for your app. Therefore, I would highly recommend to draw on paper first since in this way you can easily make changes to the layout.
+
+## Lesson 5 - Logic Planning
+
+This is the special stage of your development process. It is time for you to think about the functionality of each feature. You do not really need to know how exactly implement the feature but you have to what what each button does, to what form it redirect.
+
+_Make sure you don't have many layers inside each form_
