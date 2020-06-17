@@ -200,3 +200,7 @@ Now in this stage as a developer, you should sketch the basic form layout of the
 This is the special stage of your development process. It is time for you to think about the functionality of each feature. You do not really need to know how exactly implement the feature but you have to what what each button does, to what form it redirect.
 
 _Make sure you don't have many layers inside each form_
+
+## Lesson 6 - Creating Class Library
+
+So far we have been working in the planning stage of the programm. That took nearly 5 steps for us to actually start coding. From this step on we will be building what we have been thinking so far. Now the development phase is supposed to be more straighforward as we clearly envisioned what we will be building.
