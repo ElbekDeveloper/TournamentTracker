@@ -61,7 +61,89 @@ Once you as a developer understand what the stakeholder wants, it is time to ask
 15. Is it individual or team tournament tracker?
 
 **Here is lesson outcome:**
+
 At first the developer should set clear vision of what he will be doing
+
 [Please visit lesson for more understanding...](https://www.youtube.com/watch?v=YF-3SpIGkYM&list=PLLWMQd6PeGY3t63w-8MMIjIyYS7MsFcCi&index=3&t=0s)
 
 ## Lesson 2 - Overview Planning
+
+1. How many players will the tournament has? Is it a variable (changing)?
+
+   The application should be able to handle a variable number of players.
+
+2. What if a tournament has less than a full complement of players? Do some team become 'byes' (jumpers to next round)?
+
+   If there is no complement for some teams, it is ok for some to skip the first round as if they won.
+
+3. Should ordering be random or sorted by input order?
+
+   Random
+
+4. Should we schedule the game or do they play whenever?
+
+   The game should be played in any order and any time.
+
+5. If yes, how we handle it? Or do we simply declare the time slots and let the user insert the score anytime?
+
+   No, each round should be fully completed first.
+
+6. If no, can the game in the second round be played before the first round is fully over?
+
+-
+
+7. Does the systems need to store the scores or just who won?
+
+   Recording the scores would be nice.
+
+8. What type of front-end does the stakeholder wants (Windows Forms, Web Page, App, etc.)?
+
+   Currently, WinForms is enough. But in the future there might be UI changes.
+
+9. Where is the data gonna be stored (text files, excel spreadshits, database, etc.)?
+
+   Ideally, Micrasoft SQL would be great. However, text file storage also would be a good add-on.
+
+10. Does the system handle entry fees, prizes or payouts?
+
+    Yes. There will be an entry fee. Plus, the administrator decides how much percentage or what prize to give to the winner.
+
+11. How to report the results?
+
+    It is good to have message in the form about the winner. Plus, emailing the administrator and the player would be nice.
+
+12. Who can fill the results of a game?
+
+    Anyone using the app. We think that the app would be installed in the pc of the admin so that no one can access the program.
+
+13. Are there varying levels of access?
+
+    No
+
+14. Should the system contact the players about upcoming events?
+
+    Yes, the program should email users.
+
+15. Is it individual or team tournament tracker?
+
+    The should be option to add other members to the team.
+
+### Big Picture Design
+
+Once every question is answered, it is time to think about the technologies we will be using for program development.
+
+1. **Structure**: Windows Forms and Class Library
+2. **Data**: SQL and/ or Text Files.
+3. **Users**: One user at a time.
+
+### Key Concepts
+
+Once you know what technologies you will be using, you should identify what are some of features. For this particular program the key concepts are:
+
+- Emailing through C#
+- SQL
+- Custom Events
+- Error Handling
+- Interfaces
+- Random Ordering
+- Texting
