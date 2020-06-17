@@ -210,3 +210,7 @@ It is always a good practice to delete the default _Class1.cs_ as renaming the c
 The general practice for naming the classes is \*ClassName**Model\***
 
 _Three forward slashed create XML for documenting the project_
+
+## Lesson 7 - Creating Forms
+
+In this lesson we will be creating user interface of the application. First, we open a new form project.
