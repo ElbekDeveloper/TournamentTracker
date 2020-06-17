@@ -147,3 +147,44 @@ Once you know what technologies you will be using, you should identify what are 
 - Interfaces
 - Random Ordering
 - Texting
+
+## Lesson 3 - Data Design
+
+In this stage you have to think through and jot down what data you will be using in this program. Below you can find the data mapping process for the current application:
+
+**Team**
+
+- TeamMembers (Lis<Person>)
+- TeamName (string)
+
+**Person**
+
+- FirstName (string)
+- LastName (string)
+- EmailAddress (string)
+- PhoneNumber
+
+**Tournament**
+
+- TournamentName (string)
+- EntryFee (decimal)
+- EnteredNumber (List<Team>)
+
+**Prize**
+
+- PlaceNumber (int)
+- PlaceName (string)
+- PlaceAmount
+- PrizePercentage (double)
+
+**Matchup**
+
+- Entries (List<MarchupEntry>)
+- Winner (Team)
+- MatchupRound (int)
+
+**MatchupEntry**
+
+- TeamCompeting (Team)
+- Score (double)
+- ParentMatchup (Matchup)
