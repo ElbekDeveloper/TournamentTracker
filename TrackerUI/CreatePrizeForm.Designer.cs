@@ -35,7 +35,7 @@
             this.tbxPlaceName = new System.Windows.Forms.TextBox();
             this.lblPrizaAmount = new System.Windows.Forms.Label();
             this.tbxPrizeAmount = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblPrizePercentage = new System.Windows.Forms.Label();
             this.tbxPrizePercentage = new System.Windows.Forms.TextBox();
             this.lblOr = new System.Windows.Forms.Label();
             this.btnCreateTeam = new System.Windows.Forms.Button();
@@ -108,16 +108,16 @@
             this.tbxPrizeAmount.Size = new System.Drawing.Size(181, 29);
             this.tbxPrizeAmount.TabIndex = 11;
             // 
-            // label3
+            // lblPrizePercentage
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(25, 241);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 21);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Prize Percentage";
+            this.lblPrizePercentage.AutoSize = true;
+            this.lblPrizePercentage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblPrizePercentage.ForeColor = System.Drawing.Color.Gray;
+            this.lblPrizePercentage.Location = new System.Drawing.Point(25, 241);
+            this.lblPrizePercentage.Name = "lblPrizePercentage";
+            this.lblPrizePercentage.Size = new System.Drawing.Size(124, 21);
+            this.lblPrizePercentage.TabIndex = 10;
+            this.lblPrizePercentage.Text = "Prize Percentage";
             // 
             // tbxPrizePercentage
             // 
@@ -163,7 +163,7 @@
             this.Controls.Add(this.tbxPlaceName);
             this.Controls.Add(this.tbxPlaceNumber);
             this.Controls.Add(this.lblOr);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblPrizePercentage);
             this.Controls.Add(this.lblPrizaAmount);
             this.Controls.Add(this.lblPlaceName);
             this.Controls.Add(this.lblPlaceNumber);
@@ -186,7 +186,7 @@
         private System.Windows.Forms.TextBox tbxPlaceName;
         private System.Windows.Forms.Label lblPrizaAmount;
         private System.Windows.Forms.TextBox tbxPrizeAmount;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblPrizePercentage;
         private System.Windows.Forms.TextBox tbxPrizePercentage;
         private System.Windows.Forms.Label lblOr;
         private System.Windows.Forms.Button btnCreateTeam;

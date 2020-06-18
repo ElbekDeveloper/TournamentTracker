@@ -42,7 +42,7 @@
             this.lblEmail = new System.Windows.Forms.Label();
             this.tbxEmail = new System.Windows.Forms.TextBox();
             this.lblPhoneNumber = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbxPhoneNumber = new System.Windows.Forms.TextBox();
             this.btnCreateMember = new System.Windows.Forms.Button();
             this.listboxTeamMembers = new System.Windows.Forms.ListBox();
             this.btnDeleteSelectedMember = new System.Windows.Forms.Button();
@@ -112,7 +112,7 @@
             // 
             // groupBoxAddNewMember
             // 
-            this.groupBoxAddNewMember.Controls.Add(this.textBox1);
+            this.groupBoxAddNewMember.Controls.Add(this.tbxPhoneNumber);
             this.groupBoxAddNewMember.Controls.Add(this.btnCreateMember);
             this.groupBoxAddNewMember.Controls.Add(this.tbxEmail);
             this.groupBoxAddNewMember.Controls.Add(this.tbxLastName);
@@ -198,13 +198,13 @@
             this.lblPhoneNumber.TabIndex = 8;
             this.lblPhoneNumber.Text = "Phone #";
             // 
-            // textBox1
+            // tbxPhoneNumber
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(107, 155);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(181, 29);
-            this.textBox1.TabIndex = 9;
+            this.tbxPhoneNumber.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbxPhoneNumber.Location = new System.Drawing.Point(107, 155);
+            this.tbxPhoneNumber.Name = "tbxPhoneNumber";
+            this.tbxPhoneNumber.Size = new System.Drawing.Size(181, 29);
+            this.tbxPhoneNumber.TabIndex = 9;
             // 
             // btnCreateMember
             // 
@@ -292,7 +292,7 @@
         private System.Windows.Forms.GroupBox groupBoxAddNewMember;
         private System.Windows.Forms.TextBox tbxFirstName;
         private System.Windows.Forms.Label lblFirstName;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbxPhoneNumber;
         private System.Windows.Forms.Button btnCreateMember;
         private System.Windows.Forms.TextBox tbxEmail;
         private System.Windows.Forms.TextBox tbxLastName;
