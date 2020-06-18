@@ -2,11 +2,14 @@
 
 _Content_
 
-1. [Lesson 0 - Introduction](#lesson-0---introduction)
-2. [Lesson 1 - Initial Planning](#lesson-1---initial-planning)
-3. [Lesson 2 - Overview Planning](#lesson-2---overview-planning)
-4. [Lesson 3 - Data Design](#lesson-3---data-design)
-5. [Lesson 4 - Logic Planning](#lesson-5---logic-planning)
+0. [Lesson 0 - Introduction](#lesson-0---introduction)
+1. [Lesson 1 - Initial Planning](#lesson-1---initial-planning)
+2. [Lesson 2 - Overview Planning](#lesson-2---overview-planning)
+3. [Lesson 3 - Data Design](#lesson-3---data-design)
+4. [Lesson 4 - User Interface Planning](#lesson-4---user-interface-planning)
+5. [Lesson 5 - Logic Planning](#lesson-5---logic-planning)
+6. [Lesson 6 - Creating Class Library](#lesson-6---creating-class-library)
+7. [Lesson 7 - Creating Forms](#lesson-7---creating-forms)
 
 ## Lesson 0 - Introduction
 
