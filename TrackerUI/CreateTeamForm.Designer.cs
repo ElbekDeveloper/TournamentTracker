@@ -82,6 +82,7 @@
             // 
             this.btnAddTeam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnAddTeam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnAddTeam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddTeam.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnAddTeam.Location = new System.Drawing.Point(79, 185);
             this.btnAddTeam.Name = "btnAddTeam";
@@ -209,6 +210,7 @@
             // 
             this.btnCreateMember.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnCreateMember.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnCreateMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreateMember.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnCreateMember.Location = new System.Drawing.Point(57, 192);
             this.btnCreateMember.Name = "btnCreateMember";
@@ -230,6 +232,7 @@
             // 
             this.btnDeleteSelectedMember.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnDeleteSelectedMember.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnDeleteSelectedMember.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDeleteSelectedMember.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnDeleteSelectedMember.Location = new System.Drawing.Point(733, 229);
             this.btnDeleteSelectedMember.Name = "btnDeleteSelectedMember";
@@ -242,6 +245,7 @@
             // 
             this.btnCreateTeam.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnCreateTeam.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnCreateTeam.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCreateTeam.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.btnCreateTeam.Location = new System.Drawing.Point(309, 467);
             this.btnCreateTeam.Name = "btnCreateTeam";
@@ -255,7 +259,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(850, 523);
+            this.ClientSize = new System.Drawing.Size(865, 523);
             this.Controls.Add(this.btnDeleteSelectedMember);
             this.Controls.Add(this.btnCreateTeam);
             this.Controls.Add(this.listboxTeamMembers);
