@@ -30,8 +30,6 @@
         {
             this.lblTournament = new System.Windows.Forms.Label();
             this.lblTournamentName = new System.Windows.Forms.Label();
-            this.lblScore = new System.Windows.Forms.Label();
-            this.cboRound = new System.Windows.Forms.ComboBox();
             this.cbxUnplayedOnly = new System.Windows.Forms.CheckBox();
             this.listboxMatchup = new System.Windows.Forms.ListBox();
             this.lblScoreTeamOne = new System.Windows.Forms.Label();
@@ -42,6 +40,8 @@
             this.tbxScoreTeamTwo = new System.Windows.Forms.TextBox();
             this.lblVersus = new System.Windows.Forms.Label();
             this.btnScore = new System.Windows.Forms.Button();
+            this.lblScore = new System.Windows.Forms.Label();
+            this.cboRound = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblTournament
@@ -63,24 +63,6 @@
             this.lblTournamentName.Size = new System.Drawing.Size(93, 30);
             this.lblTournamentName.TabIndex = 1;
             this.lblTournamentName.Text = "<name>";
-            // 
-            // lblScore
-            // 
-            this.lblScore.AutoSize = true;
-            this.lblScore.ForeColor = System.Drawing.Color.Gray;
-            this.lblScore.Location = new System.Drawing.Point(22, 83);
-            this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(73, 30);
-            this.lblScore.TabIndex = 2;
-            this.lblScore.Text = "Round";
-            // 
-            // cboRound
-            // 
-            this.cboRound.FormattingEnabled = true;
-            this.cboRound.Location = new System.Drawing.Point(101, 80);
-            this.cboRound.Name = "cboRound";
-            this.cboRound.Size = new System.Drawing.Size(138, 38);
-            this.cboRound.TabIndex = 3;
             // 
             // cbxUnplayedOnly
             // 
@@ -172,19 +154,37 @@
             this.btnScore.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnScore.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnScore.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnScore.Location = new System.Drawing.Point(580, 242);
+            this.btnScore.Location = new System.Drawing.Point(543, 242);
             this.btnScore.Name = "btnScore";
             this.btnScore.Size = new System.Drawing.Size(110, 53);
             this.btnScore.TabIndex = 12;
             this.btnScore.Text = "Score";
             this.btnScore.UseVisualStyleBackColor = true;
             // 
+            // lblScore
+            // 
+            this.lblScore.AutoSize = true;
+            this.lblScore.ForeColor = System.Drawing.Color.Gray;
+            this.lblScore.Location = new System.Drawing.Point(22, 83);
+            this.lblScore.Name = "lblScore";
+            this.lblScore.Size = new System.Drawing.Size(73, 30);
+            this.lblScore.TabIndex = 2;
+            this.lblScore.Text = "Round";
+            // 
+            // cboRound
+            // 
+            this.cboRound.FormattingEnabled = true;
+            this.cboRound.Location = new System.Drawing.Point(101, 80);
+            this.cboRound.Name = "cboRound";
+            this.cboRound.Size = new System.Drawing.Size(138, 38);
+            this.cboRound.TabIndex = 3;
+            // 
             // TournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(732, 446);
+            this.ClientSize = new System.Drawing.Size(672, 446);
             this.Controls.Add(this.btnScore);
             this.Controls.Add(this.tbxScoreTeamTwo);
             this.Controls.Add(this.tbxScoreTeamOne);
@@ -212,8 +212,6 @@
 
         private System.Windows.Forms.Label lblTournament;
         private System.Windows.Forms.Label lblTournamentName;
-        private System.Windows.Forms.Label lblScore;
-        private System.Windows.Forms.ComboBox cboRound;
         private System.Windows.Forms.CheckBox cbxUnplayedOnly;
         private System.Windows.Forms.ListBox listboxMatchup;
         private System.Windows.Forms.Label lblScoreTeamOne;
@@ -224,6 +222,8 @@
         private System.Windows.Forms.TextBox tbxScoreTeamTwo;
         private System.Windows.Forms.Label lblVersus;
         private System.Windows.Forms.Button btnScore;
+        private System.Windows.Forms.Label lblScore;
+        private System.Windows.Forms.ComboBox cboRound;
     }
 }
 
