@@ -213,4 +213,4 @@ _Three forward slashed create XML for documenting the project_
 
 ## Lesson 7 - Creating Forms
 
-In this lesson we will be creating user interface of the application. First, we open a new form project.
+In this lesson we will be creating user interface of the application. First, we open a new form project. One of important outcomes of this lesson is praticing good naming convention for form objects.
